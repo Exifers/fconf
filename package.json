@@ -5,8 +5,7 @@
   "module": "index.js",
   "license": "MIT",
   "description": "Hierarchical configuration loader with support for javascript functions as configuration options.",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Exifers/fconf.git"
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Exifers/fconf/issues"
   },
-  "homepage": "https://github.com/Exifers/fconf#readme"
+  "homepage": "https://github.com/Exifers/fconf#readme",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
 }
