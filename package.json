@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Exifers/fconf#readme",
   "dependencies": {
+    "case": "^1.6.2",
     "yargs": "^15.3.1"
   }
 }
