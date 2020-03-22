@@ -9,7 +9,10 @@ const configuration = fconf({
     defaults: {
         value: 1,
         value2: 2,
-        value3: 3
+        value3: 'pi'
+    },
+    shortcuts: {
+        pi: 3.1415
     }
 });
 
@@ -35,7 +38,7 @@ module.exports = {
 `{
   value: 4,
   value2: 4,
-  value3: 3,
+  value3: 3.1415,
   '$0': 'node_modules/cli/bin/index.js'
 }
 `
