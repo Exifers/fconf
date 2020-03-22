@@ -99,7 +99,7 @@ const configuration = fconf({
   defaults: {
     inputQty: 1,
     outputFile: 'out.json',
-    transformQty: 'double' // it will be replaced by the matching shortcut function
+    transformQty: 'double' // it will be replaced by the matching shortcut
   },
   shortcuts: {
     double: qty => qty *  2,
@@ -113,15 +113,6 @@ console.log(configuration.transformQty(configuration.inputQty));
 ```
 The user can also use it :
 ```bash
-$ cliToolName
-{
-  inputQty: 1,
-  outputFile: 'out.json',
-  transformQty: [Function: transformQty], // this will multiply by 2
-  '$0': 'cliToolName'
-}
-2
-
 $ cliToolName --transform-qty=triple
 {
   inputQty: 1,
