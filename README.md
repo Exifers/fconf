@@ -66,6 +66,7 @@ $ OUTPUT_FILE='data.json' cliToolName --input-qty=3
 }
 6
 ```
+Also environment variables have an impact on the result only if a matching key is present in the configuration. This is done to avoid other environment variables 'polluting' the result. 
 
 Let's say the user have a file ```clitoolname.conf.js``` now in his/her project directory :
 ```bash
